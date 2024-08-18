@@ -66,7 +66,8 @@ const UserProfileForm = () => {
                             <label className="block text-gray-700 text-sm font-bold mb-2">Name:</label>
                             <input
                                 type="text"
-                                name="name"
+                                    name="name"
+                                     placeholder='Enter your name'
                                 value={name}
                                 onChange={handleChange}
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -77,7 +78,8 @@ const UserProfileForm = () => {
                             <label className="block text-gray-700 text-sm font-bold mb-2">Age:</label>
                             <input
                                 type="text"
-                                name="age"
+                                    name="age"
+                                     placeholder='Enter your age'
                                 value={age}
                                 onChange={handleChange}
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -89,7 +91,8 @@ const UserProfileForm = () => {
                             <input
                                 type="text"
                                 name="location"
-                                value={location}
+                                    value={location}
+                                     placeholder='Enter your location'
                                 onChange={handleChange}
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 required
@@ -99,7 +102,8 @@ const UserProfileForm = () => {
                             <label className="block text-gray-700 text-sm font-bold mb-2">Profession:</label>
                             <input
                                 type="text"
-                                name="profession"
+                                    name="profession"
+                                placeholder='Enter your profession'    
                                 value={profession}
                                 onChange={handleChange}
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
